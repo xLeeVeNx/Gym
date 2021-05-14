@@ -1,0 +1,26 @@
+{
+  "name": "gym",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xLeeVeNx/Gym.git"
+  },
+  "author": "Damil Berdyev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xLeeVeNx/Gym/issues"
+  },
+  "homepage": "https://github.com/xLeeVeNx/Gym#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.2",
+    "@babel/preset-env": "^7.14.2",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.37.0",
+    "webpack-cli": "^4.7.0"
+  }
+}
