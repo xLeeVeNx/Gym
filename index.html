@@ -399,6 +399,7 @@
                     <p>Россия, г. Щелково, ул. Советская, д.&nbsp;16</p>
                   </label>
                 </div>
+                <div class="error-block">Выберите клуб!</div>
               </div>
               <div class="call">
                 <p>Единый телефон</p>
@@ -494,7 +495,7 @@
       </div>
     </div>
   </div>
-  <div class="popup" id="thanks">
+  <div class="popup" id="thanks" style="margin: 0;">
     <div class="overlay">
     </div>
     <div class="form-wrapper">
@@ -504,6 +505,20 @@
       <div class="form-content">
         <h4>Спасибо!</h4>
         <p>Ваша заявка отправлена. <br> Мы свяжемся с вами в ближайшее время.</p>
+        <button class="btn close-btn">OK</button>
+      </div>
+    </div>
+  </div>
+  <div class="popup" id="error">
+    <div class="overlay">
+    </div>
+    <div class="form-wrapper">
+      <div class="close-form">
+        <img src="images/close-icon.png" alt="close" class="close_icon">
+      </div>
+      <div class="form-content">
+        <h4>ИЗВИНИТЕ!</h4>
+        <p>Произошла ошибка. <br> К сожалению Ваша заявка не была отправлена.</p>
         <button class="btn close-btn">OK</button>
       </div>
     </div>
@@ -523,7 +538,7 @@
     </div>
   </div>
 
-  <script src="dist/main.min.js"></script>
+  <script type="module" src="src/main.js"></script>
 </body>
 
 </html>

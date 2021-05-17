@@ -20,5 +20,9 @@ module.exports = {
         exclude: /node_modules/,
       }
     ]
+  },
+  devServer: {
+    overlay: true,
+    open: true
   }
 };
