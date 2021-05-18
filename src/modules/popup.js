@@ -8,7 +8,7 @@ const popup = () => {
     });
 
     if (target.closest('.club-select')) document.querySelector('header .head .club-select .clubs-list ul').classList.toggle('active');
-    else if (target.closest('.open-popup') || target.closest('.callback-btn')) {
+    else if (target.closest('.open-popup') || target.closest('.head .callback-btn')) {
       event.preventDefault();
       document.querySelector(`${target.dataset.popup}`).classList.add('active');
     } 
